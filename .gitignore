@@ -1,0 +1,65 @@
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Python environments
+venv/
+.venv/
+env/
+
+# Build output
+build/
+dist/
+
+# Logs and temporary files
+*.log
+logs/
+temp/
+tmp/
+output/
+test-output/
+
+# Secrets and configuration
+.env
+.env.*
+cookies.txt
+*.key
+*.pem
+
+# IDE
+.vscode/
+.idea/
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Test and personal documents
+*.pdf
+*.docx
+*.pptx
+*.xlsx
+video.md
+
+
+# Local backups
+*-backup-*.zip
+rtl-update-prechange-backup-20260802.zip
+
+# Build outputs
+build/
+dist/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Logs
+*.log
+logs/
+
+# Local test outputs
+output/
+temp/

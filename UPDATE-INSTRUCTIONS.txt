@@ -1,0 +1,23 @@
+MarkItDown Converter GUI Update
+================================
+
+1. Close any running MarkItDown Converter application.
+2. Extract this ZIP directly into the existing markitdown-0.1.7 folder.
+3. Allow Windows to merge folders and replace files when prompted.
+4. Double-click:
+
+   dist\MarkItDown Converter.exe
+
+The executable is standalone. It does not require the recipient's Python
+installation or modify the installed MarkItDown package.
+
+Included source files provide the GUI, YouTube conversion, Persian/Arabic PDF
+normalization, scanned-PDF detection, logging, tests, and PyInstaller build.
+
+Optional developer rebuild:
+
+   py -3.13 -m pip install -e "packages\markitdown[youtube-transcription]"
+   build.bat
+
+YouTube transcript retrieval requires a network where YouTube is accessible.
+Image-only PDFs require OCR, which is not bundled.
